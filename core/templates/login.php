@@ -2,15 +2,16 @@
 <form method="post">
   
   <div id="sinai-login">
-    <p class="slogan">if it's too money for Blackboard, you'll find it here</p>
+    <p class="slogan">An ISMMS-endorsed resource for sharing notes and review materials between students</p>
     <p class="ie8-warning" style="display: none">
       <strong>Uh oh!</strong> It appears that you are on Internet Explorer 8 or below!  We kindly request that you use
       either Firefox, Chrome, Safari, or a more recent version of Explorer, else this site
       may not work as intended!
     </p>
     <p>
-      Welcome to an infamously awesome study aid passed down through the ranks of Sinai students.
-      We've polished up the repository and added this little website that you currently behold.
+      There was once an infamous shared drive that ISMMS students passed amongst themselves, which was eventually hosted from a
+      computer in a dorm room.  Unfortunately, we can't serve files from our dorm rooms--it's against network policy.  
+      But the school would like us to continue to share our study resources in a supportable manner, and so this website was born.
     </p>
     <p>A few quick reminders:</p>
     <ul>
