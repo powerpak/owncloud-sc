@@ -2,7 +2,7 @@
 <form method="post">
   
   <div id="sinai-login">
-    <p class="slogan">An ISMMS-endorsed resource for sharing notes and review materials between students</p>
+    <p class="slogan">An ISMMS-endorsed resource for sharing notes and review materials</p>
     <p class="ie8-warning" style="display: none">
       <strong>Uh oh!</strong> It appears that you are on Internet Explorer 8 or below!  We kindly request that you use
       either Firefox, Chrome, Safari, or a more recent version of Explorer, else this site
