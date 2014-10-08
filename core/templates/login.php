@@ -10,13 +10,16 @@
     </p>
     <p>
       There was once an infamous shared drive that ISMMS students passed amongst themselves, which was eventually hosted from a
-      computer in a dorm room.  Unfortunately, we can't serve files from our dorm rooms--it's against network policy.  
+      computer in a dorm room.  Unfortunately, we can't serve files from our dorm rooms&mdash;it's against network policy.  
       But the school would like us to continue to share our study resources in a supportable manner, and so this website was born.
     </p>
     <p>A few quick reminders:</p>
     <ul>
       <li>
         Please do not share anything from or about this site with students outside the school.
+      </li>
+      <li>
+        Please don't upload copyrighted or pirated material, including textbooks, Qbanks, or video series.  They will be deleted without notice, and repeated abuses might require the school to take down this site.  One exception: anything freely distributed to students by ISMMS faculty (e.g., Dr. Soriano's ASM guide) is OK.
       </li>
       <li>
         Want to share your own stuff?  Just click <strong>Upload</strong> or <strong>New...</strong> within any folder: 
