@@ -5,29 +5,40 @@
 <!--[if IE 9]><html class="ng-csp ie ie9 lte9"><![endif]-->
 <!--[if gt IE 9]><html class="ng-csp ie"><![endif]-->
 <!--[if !IE]><!--><html class="ng-csp"><!--<![endif]-->
-	<head>
-		<title>ownCloud</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="shortcut icon" href="<?php print_unescaped(image_path('', 'favicon.png')); ?>" />
-		<link rel="apple-touch-icon-precomposed" href="<?php print_unescaped(image_path('', 'favicon-touch.png')); ?>" />
-		<?php foreach ($_['cssfiles'] as $cssfile): ?>
-			<link rel="stylesheet" href="<?php print_unescaped($cssfile); ?>" type="text/css" media="screen" />
-		<?php endforeach; ?>
-		<?php foreach ($_['jsfiles'] as $jsfile): ?>
-			<script type="text/javascript" src="<?php print_unescaped($jsfile); ?>"></script>
-		<?php endforeach; ?>
-		<?php foreach ($_['headers'] as $header): ?>
-			<?php
-				print_unescaped('<'.$header['tag'].' ');
-				foreach ($header['attributes'] as $name => $value) {
-					print_unescaped("$name='$value' ");
-				};
-				print_unescaped('/>');
-			?>
-		<?php endforeach; ?>
-	</head>
+  <head>
+    <title>ownCloud</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="<?php print_unescaped(image_path('', 'favicon.png')); ?>" />
+    <link rel="apple-touch-icon-precomposed" href="<?php print_unescaped(image_path('', 'favicon-touch.png')); ?>" />
+    <?php foreach ($_['cssfiles'] as $cssfile): ?>
+      <link rel="stylesheet" href="<?php print_unescaped($cssfile); ?>" type="text/css" media="screen" />
+    <?php endforeach; ?>
+    <?php foreach ($_['jsfiles'] as $jsfile): ?>
+      <script type="text/javascript" src="<?php print_unescaped($jsfile); ?>"></script>
+    <?php endforeach; ?>
+    <?php foreach ($_['headers'] as $header): ?>
+      <?php
+        print_unescaped('<'.$header['tag'].' ');
+        foreach ($header['attributes'] as $name => $value) {
+          print_unescaped("$name='$value' ");
+        };
+        print_unescaped('/>');
+      ?>
+    <?php endforeach; ?>
+  </head>
 
-	<body>
-		<?php print_unescaped($_['content']); ?>
-	</body>
+  <body>
+    <?php print_unescaped($_['content']); ?>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-55616247-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
 </html>
